@@ -1,6 +1,6 @@
-# Project Name
+# Design Teardown
 
-> One paragraph statement about the project.
+> For this project, we will use html and css principles to make a site like smashing magazine homepage, to train ourselves in terms of  visual hierarchy, typography and design principles. 
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,9 +8,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML and CSS
+- Css-grid mostly
+- flexbox with floats if necessary
 
 ## Live Demo
 
@@ -43,9 +43,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/maosan132)
+- Twitter: [@twitterhandle](https://twitter.com/maosan132)
+- Linkedin: [linkedin](https://www.linkedin.com/in/mauricio-santos-a7292910)
 
 👤 **Author2**
 
@@ -72,3 +72,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
+
+FREE SOFTWARE ROCKS!
