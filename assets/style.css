@@ -10,7 +10,7 @@ html {
   margin: 0;
 }
 body{
-  
+  background-color: #282828;
   font-family: 'Roboto', sans-serif;
   color: #fff;
 }
@@ -156,4 +156,36 @@ header button{
   color:black;
   padding: 50px;
   
+}
+.community-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 50px;
+}
+.community-links > div{
+  grid-column: span 2;
+  height: 200px;
+}
+.community-links > div span {
+  width: 150px;
+  height: 150px;
+  float: left;
+  display: block;
+  margin-right: 10px;
+
+}
+.community-links > div p {
+
+}
+.community-links article {
+  display:grid;
+  grid-gap: 10px;
+  grid-template-columns: 80px 1fr;
+}
+.community-links span {
+  padding:25px;
+  background-color: black;
+  height: 50%;
+  width: 70%;
 }
