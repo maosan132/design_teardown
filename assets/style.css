@@ -1,21 +1,27 @@
-header {
-  display:grid;
-  grid-template-columns: 300px 1fr 200px;
-  
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+  width:100%;
 }
 header ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    list-style: none; 
+    display: flex;
+    justify-content: space-evenly 
 }
 header li {
-  display: inline; 
+  list-style-type: none; 
 
 } 
 header a {
     display: block;
     text-decoration: none;
 }
-img {
-    width: 50px;
+header button{
+  width:100px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  margin-top:15px;
 }
