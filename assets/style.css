@@ -3,10 +3,19 @@ header {
   grid-template-columns: 300px 1fr 200px;
   
 }
+header ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    list-style: none; 
+}
 header li {
   display: inline; 
-  list-style: none; 
+
 } 
+header a {
+    display: block;
+    text-decoration: none;
+}
 img {
     width: 50px;
 }
