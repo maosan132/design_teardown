@@ -1,7 +1,7 @@
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body{
   
@@ -13,10 +13,10 @@ header {
  
 }
 header ul {
-    display: flex;
-    justify-content: space-between;  
-    text-align: center;
-    height: 215px;
+  display: flex;
+  justify-content: space-between;  
+  text-align: center;
+  height: 215px;
 }
 header li {
   list-style-type: none;
@@ -24,10 +24,10 @@ header li {
 
 } 
 header a {
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    margin: 10px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
 }
 header h2 {
   font-size: 30px;
@@ -66,9 +66,11 @@ header button{
 .art2, .art3{
   background-color: darkslategrey;
 }
-
+.grid1 article {
+  padding: 250px 100px 200px 100px;
+}
 .grid1 p{
-  margin:0 auto;
+  margin: 0 auto;
 }
 /* .box{
   border:4px solid white;
@@ -80,3 +82,19 @@ header button{
   display: block;
   margin:70px;
 } */
+
+.featured-articles div {
+  outline: 1px solid red;
+  height: 100px;
+  padding: 30px;
+
+}
+
+
+.featured-articles h2 {
+  font-size: 50px;
+}
+.featured-articles p {
+  font-size: 20px;
+  padding-top:15px
+}
