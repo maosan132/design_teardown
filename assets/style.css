@@ -110,9 +110,11 @@ header button{
 .lastest-posts {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  height: 500px;
+  text-align: center;
 }
 .lastest-posts article {
-  background-color: brown;
+  background-color: darkgrey;
 }
 .lastest-posts article:nth-child(5) {
   background-color: black;
@@ -121,4 +123,37 @@ header button{
 .lastest-posts article:nth-child(10) {
   background-color: black;
   grid-column: span 2;
+}
+.upcoming-post{
+  text-align: center;
+  height: 500px;
+  margin: 30px;
+  background:pink;
+  border-radius: 10px;
+}
+.upcoming-post h2{
+  color: black;
+  padding: 40px;
+  font-size:30px;
+}
+.upcoming-post p{
+  color: black;
+  line-height: 30px;
+  padding:20px;
+}
+.upcoming-post button{
+  background: grey;
+  padding:10px;
+  border:none;
+  border-radius: 10px;
+  width:300px;
+}
+.handbook{
+  background:lightgreen;
+  height: 400px;
+}
+.handbook p{
+  color:black;
+  padding: 50px;
+  
 }
