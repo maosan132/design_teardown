@@ -1,0 +1,12 @@
+header {
+  display:grid;
+  grid-template-columns: 300px 1fr 200px;
+  
+}
+header li {
+  display: inline; 
+  list-style: none; 
+} 
+img {
+    width: 50px;
+}
