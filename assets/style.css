@@ -2,74 +2,81 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
 }
-body{
+
+body {
   background-color: #282828;
   font-family: 'Roboto', sans-serif;
   color: #fff;
 }
+
 header {
   background-color: #272727;
- 
 }
+
 header ul {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   text-align: center;
   height: 185px;
 }
+
 header li {
   list-style-type: none;
   padding: 10px;
+}
 
-} 
 header a {
   display: block;
   text-decoration: none;
   color: #fff;
   margin: 10px;
 }
+
 header h2 {
   font-size: 30px;
 }
-header button{
-  width:100px;
+
+header button {
+  width: 100px;
   height: 50px;
   border-radius: 10px;
   border-style: none;
-  margin-top:15px;
+  margin-top: 15px;
 }
+
 .logo {
   display: flex;
   font-size: 35px;
   width: 230px;
 }
 
-
-.grid1{
-  display:grid;
+.grid1 {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .gray1 {
   background-color: #303030;
 }
-.gray2{
+
+.gray2 {
   background-color: #282828;
 }
+
 .grid1 article {
   padding: 200px 100px 100px;
   text-align: center;
 }
-.grid1 p{
+
+.grid1 p {
   margin: 0 auto;
 }
+
 /* .box{
   border:4px solid white;
   height: 50px;
@@ -80,22 +87,25 @@ header button{
   display: block;
   margin:70px;
 } */
+
 .featured-articles {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: flex-start;
   /* justify-content: center; */
 }
+
 .featured-articles h1 {
   font-size: 40px;
   background-color: black;
   padding: 10px;
-  top: 250px;;
+  top: 250px;
+  ;
   align-self: center;
-  position:absolute;
+  position: absolute;
   color: black;
   background-color: #fff;
-  left:700px;
+  left: 700px;
   font-weight: bolder;
 }
 
@@ -105,87 +115,123 @@ header button{
 
 .featured-articles p {
   font-size: 20px;
-  padding-top:15px
+  padding-top: 15px
 }
+
 .lastest-posts {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   height: 500px;
   text-align: center;
+  grid-gap: 2px;
 }
+
 .lastest-posts article {
   background-color: darkgrey;
 }
+
 .lastest-posts article:nth-child(5) {
   background-color: black;
   grid-column: span 2;
 }
+
 .lastest-posts article:nth-child(10) {
   background-color: black;
   grid-column: span 2;
 }
-.upcoming-post{
+
+.upcoming-post {
   text-align: center;
   height: 500px;
   margin: 30px;
-  background:pink;
+  background: pink;
   border-radius: 10px;
 }
-.upcoming-post h2{
+
+.upcoming-post img {
+  height: 150px;
+  margin-top: 10px;
+}
+
+.upcoming-post h2 {
   color: black;
   padding: 40px;
-  font-size:30px;
+  font-size: 30px;
 }
-.upcoming-post p{
+
+.upcoming-post p {
   color: black;
   line-height: 30px;
-  padding:20px;
+  padding: 20px;
 }
-.upcoming-post button{
+
+.upcoming-post button {
   background: grey;
-  padding:10px;
-  border:none;
+  padding: 10px;
+  border: none;
   border-radius: 10px;
-  width:300px;
+  width: 300px;
 }
-.handbook{
-  background:lightgreen;
+
+.handbook {
+  background: lightgreen;
   height: 400px;
 }
-.handbook p{
-  color:black;
-  padding: 50px;
-  
+
+.handbook h2, h3 {
+  text-align: center;
+  padding: 10px;
 }
+
+.handbook p {
+  color: black;
+  padding: 50px;
+}
+
 .community-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   padding: 50px;
 }
-.community-links > div{
+
+.community-links>div {
   grid-column: span 2;
   height: 200px;
 }
-.community-links > div span {
+
+.community-links>div span {
   width: 150px;
   height: 150px;
   float: left;
   display: block;
   margin-right: 10px;
-
 }
-.community-links > div p {
 
-}
 .community-links article {
-  display:grid;
+  display: grid;
   grid-gap: 10px;
   grid-template-columns: 80px 1fr;
 }
+
 .community-links span {
-  padding:25px;
-  background-color: black;
+  padding: 25px;
+  background-color: rgb(54, 52, 52);
   height: 50%;
   width: 70%;
+  -ms-transform: rotate(-11deg);
+  transform: rotate(-11deg);
+}
+
+.community-links span:hover{
+  transition: 0.30s;
+  -webkit-transition: 0.30s;
+  -moz-transition: 0.30s;
+  -ms-transition: 0.30s;
+  -o-transition: 0.30s;
+  -webkit-transform: rotate(0.2deg);
+  -moz-transform: rotate(0.2deg);
+  -o-transform: rotate(0.2deg);
+  -ms-transform: rotate(0.2deg);
+  transform: rotate(0.2deg);
 }
