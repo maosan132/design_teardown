@@ -57,7 +57,6 @@ header button{
 .grid1{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 500px;
 }
 
 .art1, .art4 {
@@ -66,9 +65,7 @@ header button{
 .art2, .art3{
   background-color: darkslategrey;
 }
-.grid1 article {
-  padding: 250px 100px 200px 100px;
-}
+
 .grid1 p{
   margin: 0 auto;
 }
@@ -83,17 +80,11 @@ header button{
   margin:70px;
 } */
 
-.featured-articles div {
-  outline: 1px solid red;
-  height: 100px;
-  padding: 30px;
-
-}
-
 
 .featured-articles h2 {
-  font-size: 50px;
+  font-size: 15px;
 }
+
 .featured-articles p {
   font-size: 20px;
   padding-top:15px
