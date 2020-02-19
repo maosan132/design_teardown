@@ -2,9 +2,9 @@
 
 > For this project, we will use html and css principles to make a site like smashing magazine homepage, to train ourselves in terms of  visual hierarchy, typography and design principles. 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
+
 
 ## Built With
 
@@ -14,29 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://kind-lichterman-9bdf46.netlify.com/)
 
 
 ## Authors
@@ -49,9 +27,10 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/chinweokwu)
+- Twitter: [@twitterhandle](https://twitter.com/Morah89820846)
+- Linkedin: [linkedin](https://www.linkedin.com/in/paul-morah-285b63172/)
+
 
 ## 🤝 Contributing
 
