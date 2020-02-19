@@ -40,7 +40,7 @@ header a {
 }
 
 .hidden {
-  display: none
+  display: none;
 }
 
 header h2 {
@@ -217,7 +217,7 @@ footer h2 {
   margin: 0 50px;
 }
 
-.community-links>div {
+.community-links > div {
   grid-column: span 2;
   height: 200px;
 }
@@ -231,7 +231,7 @@ footer h2 {
   transform: rotate(-11deg);
 }
 
-.community-links>div span {
+.community-links > div span {
   width: 150px;
   height: 150px;
   float: left;
