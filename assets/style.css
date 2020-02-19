@@ -42,8 +42,8 @@ header h2 {
 }
 
 header button {
-  width: 100px;
-  height: 50px;
+  padding: 20px 30px;
+  font-size: 18px;
   border-radius: 10px;
   border-style: none;
   margin-top: 15px;
@@ -101,7 +101,6 @@ header button {
 
 .featured-articles h1 {
   font-size: 45px;
-  background-color: black;
   padding: 10px;
   top: 250px;
   align-self: center;
@@ -115,6 +114,7 @@ header button {
 .featured-articles h2 {
   font-size: 50px;
   padding-top: 50px;
+  line-height: 1;
 }
 
 .featured-articles p {
@@ -137,6 +137,7 @@ header button {
 .lastest-posts h2 {
   font-size: 40px;
   padding-top: 130px;
+  line-height: 1;
 }
 
 .lastest-posts p {
@@ -165,6 +166,7 @@ header button {
   margin: 30px;
   background: #a9a9a9;
   border-radius: 10px;
+
 }
 
 .upcoming-post h2 {
@@ -176,20 +178,21 @@ header button {
 
 .upcoming-post p {
   color: black;
-  line-height: 30px;
+  line-height: 1.5;
   padding: 40px 300px;
   font-size: 25px;
   font-weight: 100;
 }
 
-.upcoming-post button {
+.upcoming-post button  {
   background: #202020;
-  padding: 10px;
+  padding: 20px 30px;
+  font-size: 18px;
   border: none;
   border-radius: 10px;
   width: 300px;
   color: white;
-  font-size: 18px;
+
 }
 
 .upcoming-post img {
@@ -221,7 +224,7 @@ header button {
 
 .community-links h2 {
   font-size: 35px;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .community-links article {
@@ -260,28 +263,47 @@ header button {
 
 .smashing-book {
   background: #a9a9a9;
-  height: 450px;
+  min-height: 450px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto 25%;
+  color: #080808;
+  }
+
+.smashing-book article {
+  padding-left: 85px;
+  align-self: center;
 }
 
-.smashing-book p, h2 {
-  line-height: 30px;
-  padding: 20px;
-  margin-left: 50px;
+.smashing-book article *{
+  padding-bottom: 20px;
 }
 
 .smashing-book h2 {
-  font-size: 30px;
+  font-size: 45px;
+}
+
+.smashing-book p {
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .smashing-book button {
-  padding: 20px;
-  width: 400px;
+  padding: 20px 30px;
+  font-size: 18px;
   border-style: none;
   border-radius: 10px;
-  margin-left: 150px;
   margin-top: 10px;
+  background-color: #080808;
+  color: #a9a9a9;
 }
-
+.book {
+  height: 420px;
+  width: 310px;
+  background-color: black;
+  transform: rotate(-11deg);
+}
 .curated-post {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -291,4 +313,95 @@ header button {
 
 .curated-post ul li {
   list-style: none;
+}
+
+.newsletter {
+  text-align: center;
+  min-height: 600px;
+  margin: 30px;
+  background: #a9a9a9;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.newsletter h2 {
+  color: black;
+  padding-top: 30px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.newsletter p {
+  color: black;
+  line-height: 1.5;
+  padding: 40px 300px;
+  font-size: 25px;
+  font-weight: 100;
+  font-weight: 300;
+}
+
+.newsletter a {
+  text-decoration: none;
+  color: inherit;
+}
+.newsletter button {
+  background: #202020;
+  
+  width: fit-content;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+ cursor: pointer;
+}
+.newsletter input {
+  padding: 20px 30px; 
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 100;
+  font-size: 18px;
+  border-right: 1px solid white;
+}
+.newsletter span {
+  display: inline-block;
+  margin: 0 50px
+}
+.circle {
+  height: 350px;
+  width: 350px;
+  background-color: black;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: 5px gray doubled;
+  margin-bottom: 50px;
+}
+footer {
+  background-color: #272727;
+  text-align: center;
+  padding: 50px;
+}
+
+footer p {
+  padding-bottom: 50px;
+  font-size: 20px;
+
+}
+
+footer ul{
+  list-style-type: circle;
+}
+footer li {
+  display: inline;
+  list-style-type: circle;
+  list-style: square;
+}
+footer li a {
+  /* display: inline-block; */
+  text-decoration: none;
+  color: #a9a9a9;
+  font-size: 30px;
+  line-height: 2;
+  font-weight: 100;
+
 }
