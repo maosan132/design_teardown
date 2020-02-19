@@ -72,7 +72,10 @@ header button {
   padding: 200px 100px 100px;
   text-align: center;
 }
+.grid1 .nopadding {
+  padding-top: 20px;
 
+}
 .grid1 p {
   margin: 0 auto;
 }
@@ -96,96 +99,101 @@ header button {
 }
 
 .featured-articles h1 {
-  font-size: 40px;
+  font-size: 45px;
   background-color: black;
   padding: 10px;
   top: 250px;
-  ;
   align-self: center;
   position: absolute;
   color: black;
   background-color: #fff;
-  left: 700px;
+  left: 680px;
   font-weight: bolder;
 }
 
 .featured-articles h2 {
   font-size: 50px;
+  padding-top: 50px;
 }
 
 .featured-articles p {
   font-size: 20px;
-  padding-top: 15px
+  padding-top: 15px;
+  line-height: 1.5;
 }
 
 .lastest-posts {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  height: 500px;
+  grid-template-columns: repeat(3, 1fr);
+  min-height: 500px;
   text-align: center;
   grid-gap: 2px;
-}
-
-.lastest-posts article {
+  color: #202020;
+  /* align-content: center; */
   background-color: darkgrey;
+  
 }
-
-.lastest-posts article:nth-child(5) {
-  background-color: black;
-  grid-column: span 2;
+.lastest-posts h2{
+  font-size: 40px;
+  padding-top: 130px;
 }
+.lastest-posts p{
+  font-size: 20px;
+  font-weight: 300;
+  padding: 50px;
+  padding-top: 20px;
+  line-height: 1.5;
+}
+/* .lastest-posts article {
+  background-color: darkgrey;
+} */
 
-.lastest-posts article:nth-child(10) {
+.lastest-posts article:nth-child(2) {
   background-color: black;
-  grid-column: span 2;
+    color: white;
+    margin: 30px;
+    border-radius: 10px;
+    padding-bottom: 50px;
 }
 
 .upcoming-post {
   text-align: center;
-  height: 500px;
+  min-height: 600px;
   margin: 30px;
-  background: pink;
+  background: #a9a9a9;
   border-radius: 10px;
-}
-
-.upcoming-post img {
-  height: 150px;
-  margin-top: 10px;
 }
 
 .upcoming-post h2 {
   color: black;
-  padding: 40px;
+  padding-top: 80px;
   font-size: 30px;
+  font-size: 45px;
 }
 
 .upcoming-post p {
   color: black;
   line-height: 30px;
-  padding: 20px;
+  padding: 40px 300px;
+  font-size: 25px;
+  font-weight: 100;
 }
 
 .upcoming-post button {
-  background: grey;
+  background: #202020;
   padding: 10px;
   border: none;
   border-radius: 10px;
   width: 300px;
+  color: white;
+  font-size: 18px;
 }
 
-.handbook {
-  background: lightgreen;
-  height: 400px;
-}
-
-.handbook h2, h3 {
-  text-align: center;
-  padding: 10px;
-}
-
-.handbook p {
-  color: black;
-  padding: 50px;
+.upcoming-post img {
+  height: 350px;
+  padding: 80px;
+  display: block;
+  margin: 0 auto;
 }
 
 .community-links {
@@ -207,7 +215,10 @@ header button {
   display: block;
   margin-right: 10px;
 }
-
+.community-links h2 {
+  font-size: 35px;
+  line-height: 1.5;
+}
 .community-links article {
   display: grid;
   grid-gap: 10px;
@@ -223,6 +234,11 @@ header button {
   transform: rotate(-11deg);
 }
 
+.community-links p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 100;
+}
 .community-links span:hover{
   transition: 0.30s;
   -webkit-transition: 0.30s;
