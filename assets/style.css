@@ -3,8 +3,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
@@ -101,6 +101,11 @@ header button {
   font-weight: bolder;
 }
 
+footer h2 {
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
 .featured-articles h2 {
   font-size: 50px;
   padding-top: 50px;
@@ -135,6 +140,17 @@ header button {
   padding: 50px;
   padding-top: 20px;
   line-height: 1.5;
+}
+
+.community-links article {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 80px 1fr;
+}
+
+.smashing-book article {
+  padding-left: 85px;
+  align-self: center;
 }
 
 .lastest-posts article:nth-child(2) {
@@ -192,9 +208,23 @@ header button {
   padding: 50px;
 }
 
+.newsletter span {
+  display: inline-block;
+  margin: 0 50px;
+}
+
 .community-links > div {
   grid-column: span 2;
   height: 200px;
+}
+
+.community-links span {
+  padding: 25px;
+  background-color: rgb(54, 52, 52);
+  height: 50%;
+  width: 70%;
+  -ms-transform: rotate(-11deg);
+  transform: rotate(-11deg);
 }
 
 .community-links > div span {
@@ -210,21 +240,6 @@ header button {
   line-height: 1;
 }
 
-.community-links article {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 80px 1fr;
-}
-
-.community-links span {
-  padding: 25px;
-  background-color: rgb(54, 52, 52);
-  height: 50%;
-  width: 70%;
-  -ms-transform: rotate(-11deg);
-  transform: rotate(-11deg);
-}
-
 .community-links p {
   font-size: 20px;
   line-height: 1.5;
@@ -232,11 +247,11 @@ header button {
 }
 
 .community-links span:hover {
-  transition: 0.30s;
-  -webkit-transition: 0.30s;
-  -moz-transition: 0.30s;
-  -ms-transition: 0.30s;
-  -o-transition: 0.30s;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
   -webkit-transform: rotate(0.2deg);
   -moz-transform: rotate(0.2deg);
   -o-transform: rotate(0.2deg);
@@ -251,11 +266,6 @@ header button {
   display: grid;
   grid-template-columns: auto 25%;
   color: #080808;
-}
-
-.smashing-book article {
-  padding-left: 85px;
-  align-self: center;
 }
 
 .smashing-book article * {
@@ -301,6 +311,10 @@ header button {
   font-size: 30px;
 }
 
+footer li {
+  display: inline;
+}
+
 .curated-post ul li {
   line-height: 1.8;
   font-size: 25px;
@@ -334,6 +348,14 @@ header button {
   font-weight: 300;
 }
 
+footer li a {
+  text-decoration: none;
+  color: #a9a9a9;
+  font-size: 30px;
+  line-height: 2;
+  font-weight: 100;
+}
+
 .newsletter a {
   text-decoration: none;
   color: inherit;
@@ -359,11 +381,6 @@ header button {
   border-right: 1px solid white;
 }
 
-.newsletter span {
-  display: inline-block;
-  margin: 0 50px
-}
-
 .circle {
   height: 350px;
   width: 350px;
@@ -380,26 +397,6 @@ footer {
   padding: 50px;
 }
 
-footer h2 {
-  padding-bottom: 50px;
-  font-size: 20px;
-}
-
 footer ul {
   list-style-type: circle;
-}
-
-footer li {
-  display: inline;
-  list-style-type: circle;
-  list-style: square;
-}
-
-footer li a {
-  text-decoration: none;
-  color: #a9a9a9;
-  font-size: 30px;
-  line-height: 2;
-  font-weight: 100;
-
 }
