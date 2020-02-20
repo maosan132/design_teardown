@@ -18,7 +18,7 @@ body {
 
 header {
   background-color: #272727;
-  display: flex;
+  display: flex;  
 }
 
 header ul {
@@ -132,12 +132,13 @@ footer h2 {
 
 .lastest-posts {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   min-height: 500px;
   text-align: center;
   grid-gap: 2px;
   color: #202020;
   background-color: darkgrey;
+  padding-bottom: 50px;
 }
 
 .lastest-posts h2 {
@@ -165,28 +166,22 @@ footer h2 {
   align-self: center;
 }
 
-.lastest-posts article:nth-child(2) {
-  background-color: black;
-  color: white;
-  margin: 30px;
-  border-radius: 10px;
-  padding-bottom: 50px;
-}
-
 .lastest-posts article:nth-child(6) {
   background-color: black;
   color: white;
   margin: 30px;
   border-radius: 10px;
   padding-bottom: 50px;
+  grid-column: span 2;
 }
 
-.lastest-posts article:nth-child(10) {
+.lastest-posts article:nth-child(11) {
   background-color: black;
   color: white;
   margin: 30px;
   border-radius: 10px;
   padding-bottom: 50px;
+  grid-column: span 2;
 }
 
 .upcoming-post {
