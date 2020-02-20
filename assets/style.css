@@ -18,7 +18,7 @@ body {
 
 header {
   background-color: #272727;
-  display: flex;  
+  display: flex;
 }
 
 header ul {
@@ -140,10 +140,12 @@ footer h2 {
   background-color: darkgrey;
   padding-bottom: 50px;
 }
+
 .invisible h2,
 .invisible p {
-  visibility:hidden;
+  visibility: hidden;
 }
+
 .lastest-posts h2 {
   font-size: 40px;
   padding-top: 130px;
