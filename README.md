@@ -4,7 +4,11 @@
 
 ![screenshot](./screenshot.png)
 
+## Screen Resoultion
 
+- This project was created with a screen resolution of 1366 * 768 with a zoom of 50%. Also the orginal project was viewed on same screen resolution.
+- The first section has 2 columns on a 1366 * 768 resolution.
+- The second section has 4 column on a 1366 * 768 resolution.  
 
 ## Built With
 

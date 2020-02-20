@@ -18,13 +18,15 @@ body {
 
 header {
   background-color: #272727;
+  display: flex;
 }
 
 header ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
   height: 185px;
+  width: 100%;
 }
 
 header li {
@@ -59,6 +61,8 @@ header button {
   display: flex;
   font-size: 35px;
   width: 230px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .grid1 {
@@ -184,6 +188,7 @@ footer h2 {
   border-radius: 10px;
   padding-bottom: 50px;
 }
+
 .upcoming-post {
   text-align: center;
   min-height: 600px;
@@ -236,7 +241,7 @@ footer h2 {
   margin: 0 50px;
 }
 
-.community-links>div {
+.community-links > div {
   grid-column: span 2;
   height: 200px;
 }
@@ -250,7 +255,7 @@ footer h2 {
   transform: rotate(-11deg);
 }
 
-.community-links>div span {
+.community-links > div span {
   width: 150px;
   height: 150px;
   float: left;
@@ -336,6 +341,7 @@ footer h2 {
 
 footer li {
   display: inline;
+  list-style-type: circle;
 }
 
 .curated-post ul li {
@@ -369,6 +375,10 @@ footer li {
   font-size: 25px;
   font-weight: 100;
   font-weight: 300;
+}
+
+footer a {
+  padding: 0 10px;
 }
 
 footer li a {
@@ -419,14 +429,6 @@ footer {
   background-color: #272727;
   text-align: center;
   padding: 50px;
-}
-
-footer li {
-  list-style-type: circle;
-}
- 
-footer a {
-  padding: 0 10px;
 }
 
 footer a:hover {
