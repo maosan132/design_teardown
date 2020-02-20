@@ -140,7 +140,10 @@ footer h2 {
   background-color: darkgrey;
   padding-bottom: 50px;
 }
-
+.invisible h2,
+.invisible p {
+  visibility:hidden;
+}
 .lastest-posts h2 {
   font-size: 40px;
   padding-top: 130px;
