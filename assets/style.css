@@ -16,17 +16,24 @@ body {
   color: #fff;
 }
 
-header {
+header .navbar{
   background-color: #272727;
-  display: flex;
+  display: grid;
+  grid-template-columns: 15% auto 10% ;
+  align-items: center;
 }
 
+.logo {
+  text-align: center;
+  vertical-align: middle;
+}
 header ul {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
   height: 185px;
-  width: 100%;
+  align-items: center;
+
 }
 
 header li {
