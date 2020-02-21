@@ -50,6 +50,11 @@ header a {
   margin: 10px;
 }
 
+.nav img {
+  width: 39px; 
+  height: 44px;
+}
+
 .hidden {
   display: none;
 }
@@ -324,7 +329,6 @@ footer h2 {
   padding: 50px;
   color: #a9a9a9;
   align-content: center;
-  align-items: space-around;
 }
 
 .curated-post div {
@@ -419,7 +423,7 @@ footer li a {
   background-color: black;
   margin: 0 auto;
   border-radius: 100%;
-  border: 5px gray doubled;
+  border: 5px gray;
   margin-bottom: 50px;
 }
 
